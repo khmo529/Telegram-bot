@@ -4,11 +4,9 @@
 name: Python application
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
+  schedule:
+    - cron: '*/1 * * * 1,2,3,4,5'
+    
 jobs:
   build:
 

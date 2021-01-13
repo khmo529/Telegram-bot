@@ -6,5 +6,6 @@ bot = telegram.Bot(token=token)
 for i in bot.getUpdates():
     print(i.message)
 
+
 #send message
 bot.sendMessage(chat_id='1396571541', text='안녕하세요 주식 봇입니다')

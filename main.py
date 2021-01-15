@@ -8,4 +8,4 @@ for i in bot.getUpdates():
 
 
 #send message s
-bot.sendMessage(chat_id='1396571541', text='1')
+bot.sendMessage(chat_id='1396571541', text='hello world')
